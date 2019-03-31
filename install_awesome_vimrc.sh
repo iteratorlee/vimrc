@@ -13,6 +13,12 @@ source ~/.vim_runtime/vimrcs/extended.vim
 try
 source ~/.vim_runtime/my_configs.vim
 catch
-endtry' > ~/.vimrc
+endtry
+
+map <F12> :NERDTreeMirror<CR>
+map <F12> :NERDTreeToggle<CR>
+
+map <F9> :tabp<CR>
+map <F10> :tabn<CR>' > ~/.vimrc
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
